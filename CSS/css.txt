@@ -1,0 +1,42 @@
+h1{
+  text-align:center;
+  font-family:'Inknut Antiqua', serif;
+  font-size:2.5rem;
+  color:rgba(0, 89, 199, 0.7);
+  
+}
+
+img{
+  height:auto;
+  width:100%;
+}
+
+body{
+  margin:0;
+}
+
+figure{
+  margin:0;
+}
+
+figcaption{
+  text-align:center;
+  font-size:0.8rem;
+  font-family:'Inknut Antiqua', serif;
+  color:rgba(0, 89, 199, 0.7);
+}
+
+article{
+  padding:0.6rem;
+  max-width:700px;
+  margin:auto;
+  letter-spacing:.003em;
+  font-size:1.15rem;
+  line-height:1.5rem;
+}
+
+a:hover{
+  color:red;
+  text-decoration:none;
+  
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang=ro>
+<head>
+ <title>Medium article</title>
+<link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
+</head>
+<body>
+  <h1>Please do learn to code</h1>
+  <figure>
+  <img src="https://cdn-images-1.medium.com/max/2600/1*euZOtdFE4rCo0GNq0yOofQ.jpeg" alt="people learning to code">
+    <figcaption>Learning to code at a Free Code Camp Toronto coffee-and-code.</figcaption>
+  </figure>
+  <article>
+    <p>This morning I woke up to dozens of messages from students who had read an article titled “Please Don’t Learn to Code.”</p>
+    <p>At first, I assumed <a href="https://blog.codinghorror.com/please-dont-learn-to-code/" target=_blank> Jeff Atwood’s 2012 article</a>had spontaneously reappeared on Reddit. But no?—?this was a<a href="https://techcrunch.com/2016/05/10/please-dont-learn-to-code/" target="_blank"> brand new Tech Crunch article</a>of the same name, which echoed Atwood’s assertion that encouraging everyone to learn programming is like encouraging everyone to learn plumbing.</p>
+    <p>Here’s why programming?—?unlike plumbing?—?is an important skill that everyone should learn: <strong>programming is how humans talk to machines.</strong></p>
+  </article>
+  </body>
+</html>    
+    
