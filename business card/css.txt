@@ -10,7 +10,7 @@
 /* Style */
 
 a{
-  padding:3px
+  padding:3px;
 }
 
 p{
