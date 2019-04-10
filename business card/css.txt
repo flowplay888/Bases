@@ -1,0 +1,125 @@
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Style */
+
+a{
+  padding:3px
+}
+
+p{
+  font-family: 'Gentium Book Basic', serif;
+  font-size:16px;
+}
+
+h1,h2{
+  font-size:20px ;
+  font-family:'Philosopher', sans-serif;
+}
+
+
+.fa-twitter{
+  color:gold;
+}
+
+.fa-twitter:hover{
+  color:aqua;
+  margin-right:6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-facebook{
+  color:gold;
+}
+
+.fa-facebook:hover{
+  color:aqua;
+  margin-right:6px;
+  transition: all 0.3s ease-in-out;
+  margin-left:6px;
+}
+
+.fa-instagram{
+  color:gold;
+}
+
+.fa-instagram:hover{
+   color:aqua;
+  
+  transition: all 0.3s ease-in-out;
+  margin-left:6px;
+}
+
+.fa-street-view{
+  color:gold;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1550867788-8d7e72ea8c62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#profile-card{
+  background-color: hsla(180, 100%, 50%, .6 );
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+/* Pozi?ion */
+
+#profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: 100vh;
+}
+
+#head,#links{
+  text-align:center;
+}
+
+#head,#content{
+  width:90%;
+  margin:0 auto;
+}
+
+
+
+#profile-image {
+  margin-top: -60px;
+}
+
+#head,#about{
+  margin-bottom:10%;
+}
+
+#content{
+  padding:5% 10%;
+   border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
