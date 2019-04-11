@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang=ro>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2|Vollkorn" rel="stylesheet">
+  <title> A Simple Blog Theme</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>CodeBerry Light</h1>
+      <p>A Simple Blog Theme</p>
+      <a href="#">Like</a>
+      <a href="#">Follow</a>
+    </header>
+    <main class="main">
+      <article class="article">
+        <h2>A Cool Article About Something Edgy</h2>
+        <img class="picture" src="https://images.unsplash.com/photo-1551895861-312f49dc66e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Cool Article">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate ullamcorper libero, eget mollis nibh molestie rhoncus. Etiam ac porta orci. Maecenas posuere mauris eu risus consectetur vulputate. Nullam aliquet metus a ornare pretium. Vivamus ac auctor lectus, eget elementum metus. In sit amet iaculis felis. Maecenas mollis nec metus et luctus.</p>
+        <a href="#">Read more</a>
+      </article>
+      <article class="article">
+        <h2>A Strong Opinion On a Thing That Just Happened</h2>
+        <img class="picture" src="https://images.unsplash.com/photo-1550702967-42731520bbbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80" alt="Strong Opinion">
+        <p>Nunc nec scelerisque sapien. Vestibulum cursus neque in pretium semper. Cras sed massa non ante iaculis volutpat. Nulla quis augue nisl. Integer convallis orci tincidunt, commodo tortor non, commodo odio. Cras lobortis lorem ac lacus porta vehicula. Pellentesque in elit diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam at porttitor nunc.</p>
+        <a href="#">Read more</a>
+      </article >
+      <article class="article">
+        <h2>A Listicle For You and Your Boyfriend</h2>
+        <img class="picture" src="https://images.unsplash.com/photo-1543932927-a9def13a0e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="You and Your Boyfriend">
+        <p>Donec porta in lacus a fermentum. Fusce id euismod neque. Donec lorem magna, tempor vel orci id, pellentesque posuere mauris. Sed nec turpis et dui iaculis scelerisque eu aliquam nulla. Vivamus non dui tempor orci volutpat suscipit sit amet at risus. Nulla bibendum molestie diam non feugiat. Vivamus at velit at dui sodales facilisis. Phasellus luctus finibus elit, vitae faucibus ex vehicula sed.</p>
+        <a href="#">Read more</a>
+      </article >
+      <a href="#">Load more stories...</a>
+    </main>
+    <p>wtf</p>
+  </body>
