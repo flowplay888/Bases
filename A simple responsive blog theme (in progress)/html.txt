@@ -33,5 +33,5 @@
       </article >
       <a href="#">Load more stories...</a>
     </main>
-    <p>wtf</p>
+   
   </body>

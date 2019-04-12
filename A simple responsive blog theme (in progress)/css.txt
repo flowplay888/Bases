@@ -46,23 +46,24 @@ table {
 
 
 /*  Helper collors   */
-
+/*
 .header{
-  background-color:rgba(215, 40, 40, 0.9);
+  background-color:  rgba(229, 0, 0, 0.9);
+ 
 }
 
 
 
 .article{
-  background-color: rgba(3, 138, 255, 1);  
+  background-color:  rgba(0, 255, 255, 0.9);
 }
 
 .main{
   background-color:rgba(215, 233, 96, 0.9);
 }
+*/
 
-
-/*    Style    */ 
+/*    Main Styles   */ 
 
 body{
   font-family:'Exo 2', sans-serif;
@@ -93,3 +94,124 @@ header p{
 .picture{
   width:100%
 }
+
+.header{
+  background-color: rgba(1, 15, 29, 1);
+  
+}
+
+/*        Styles         */
+
+*{
+  box-sizing:border-box;
+}
+
+/*    Header styles    */
+
+.header{
+  text-align:center;
+  padding:1.125rem;
+  color: #fff;
+	background-color: #42444e;
+}
+
+@media (min-width: 768px) {
+
+	.header {
+			position: fixed;
+			top: 0;
+			height: 100%;
+			width: 33.3%;
+		}
+
+}
+
+@media (min-width: 1025px) {
+
+	.header {
+		width: 20.625%;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.main {
+		float: right;
+		width: 66.6%;
+		max-width: 812px;
+	}
+
+}
+
+@media (min-width: 1025px) {
+
+	.main {
+		float: none;
+		position: absolute;
+        left: 20.625%;
+	}
+
+}
+
+/*        Article styles        */
+
+ .article{
+	width: 95%;
+	margin:0 auto 1rem ;
+	padding: 0.3125rem;
+}
+
+.picture{
+  width:100%;
+}
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,img,header,article {
+    margin-bottom: 1rem;
+}
+
+/* ==== COMPONENT STYLES ==== */
+
+.button {
+	display: inline-block;
+	border: 1px solid #8c8e9b;
+	color: #8c8e9b;
+	border-radius: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 5px;
+	width: 100px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover {
+	border: 1px solid #b60e63;
+}
+
+.load {
+	display: block;
+	text-align: center;
+	padding: 0.625rem;
+	font-size: 1.25rem;
+	color: #8c8e9b;
+}
+
+.load:hover{
+  color: #e5127d;
+}
+
+a {
+	color: #e5127d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b60e63;
+}
+
+
+
+
